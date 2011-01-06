@@ -1,0 +1,100 @@
+\documentclass[10pt,a4paper]{moderncv}
+
+\usepackage{wallpaper}
+
+
+% moderncv themes
+%\moderncvtheme[orange,roman]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[orange]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Jérôme}
+\familyname{Velut}
+\title{R\&D Imagerie médicale}               % optional, remove the line if not wanted
+\address{10, avenue des romains}{35170 BRUZ}    % optional, remove the line if not wanted
+\mobile{06 23 97 83 34}                    % optional, remove the line if not wanted
+%\phone{09 50 74 81 78}                      % optional, remove the line if not wanted
+\email{jerome.velut@gmail.com}                      % optional, remove the line if not wanted
+\homepage{http://jerome.velut.free.fr/}
+%\photo[64pt]{subset-1300-1600-petit}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Développements méthodologiques en traitement d'image et 3D. 
+Applications en imagerie médicale, ingénierie logicielle.}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\ThisCenterWallPaper{1}{fond}
+\maketitle
+%
+\section{Experiences}
+%
+\cventry{2008-aujourd'hui}{Post-doctorat}{INSERM U642-LTSI}{Rennes}{Imagerie médicale}{Segmentation 3D des coronaires
+ (artères/veines) en IRM et CT dans le cadre du projet européen euHeart.}  % arguments 3 to 6 are optional
+\cventry{}{Enseignements}{IUT Saint-Malo}{Langage C}{}{}  % arguments 3 to 6 are optional
+%\cventry{}{Activités annexes}{}{}{}{Développements de logiciel libre autour de l'informatique graphique.}
+%
+\cventry{2004-2008}{Doctorat}{CREATIS}{Insa-Lyon}{Traitement d'image 3D}{Développement méthodologique
+sur les modèles déformables 3D et leur régularisation. Application à l'imagerie du
+petit animal. 1 article (revue internationale) et 3 conférences internationales.}  % arguments 3 to 6 are optional
+\cventry{}{Enseignements}{INSA-Lyon/Université Lyon 1}{Monitorat et ATER}{}{Informatique, mathématiques, 
+informatique industrielle et automatismes}  % arguments 3 to 6 are optional
+%\cventry{}{Activités annexes}{}{}{}{Formation industrielle, création de la branche étudiante IEEE Grand-Lyon}
+%
+\cventry{2003-2004}{Stage 10 mois}{CREATIS}{Insa-Lyon}{Traitement d'image}{Régularisation
+de modèles déformables 2D par filtrage numérique.}  % arguments 3 to 6 are optional
+%
+\cventry{2003}{Stage 6 mois}{CREATIS}{Insa-Lyon}{Ingénierie logicelle}{Développements de modules 
+de visualisation/interaction en imagerie médicale.}  % arguments 3 to 6 are optional
+%
+\cventry{2002}{Stage 2 mois}{CIRAD}{Montpellier}{Traitement d'image}{Développement d'un plugin
+pour ImageJ. Evaluation de la qualité du bois de tek par traitement d'image.}  % arguments 3 to 6 are optional
+%
+\section{Formation}
+\cventry{2004--2007}{Doctorat}{Traitement d'images et signaux}{CREATIS - INSA-Lyon}{}{}
+\cvline{titre}{\emph{Segmentation par modèle déformable surfacique localement régularisé par spline lissante}}
+\cvline{directeurs}{Pr. Christophe Odet, Pr. Hugues Benoit-Cattin}
+% \cvline{jury}{\small Pr. Pierre-Yves Coulon (prés.), Pr. Jacques-Olivier Lachaud et Dr. Johann Montagnat (rapporteurs), Dr. Olivier Coulon (examinateur).}
+\cventry{2003--2004}{DEA}{Traitement d'images et signaux}{CREATIS - INSA-Lyon}{}{}
+\cventry{2000--2003}{Maitrise}{Génie Mathématique et Informatique}{IUP Avignon}{}{}
+\cventry{1997--1999}{DUT}{Génie Electrique et Informatique Industrielle}{IUT Annecy}{}{}
+%
+\section{Compétences Informatique}
+%
+\cvcomputer{Langages}{C/C++, Python, Matlab, Java, PHP,...}{Systèmes}{Linux, MS Windows}
+\cvcomputer{Conception}{UML, SGBD, CMake}{Bureautique}{WYSIWYG et Latex}
+\cvcomputer{Collaboratif}{Git, CVS, Doxygen}{Images/3D}{GIMP, Photoshop, Blender, VTK}
+%
+\section{Langues}
+\cvlanguage{Anglais}{courant}{}
+\cvlanguage{Allemand}{moyen}{}
+\cvlanguage{Italien}{bases}{}
+%
+%\pagebreak
+\section{Centre d'intérets}
+\cvline{musique}{\small Pratique de: trompette (groupe), guitare, piano}
+\cvline{création}{\small Graphisme (papier, 3D), musique, cuisine}
+\cvline{sport}{\small Escalade, sports de glisse}
+\cvline{culture}{\small Lecture (Bande dessinée, SF, littérature), cinéma}
+\cvline{associations}{\small Adhérent AFRV (Association Française de Réalité Virtuelle)}
+
+% Publications from a BibTeX file
+\nocite{*}
+\bibliographystyle{elsarticle-num}
+\bibliography{biblio_perso}      % 'publications' is the name of a BibTeX file
+\end{document}
+
+
+%% end of file `template_en.tex'.

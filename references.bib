@@ -1,0 +1,159 @@
+% This file was created with JabRef 2.5.
+% Encoding: UTF-8
+
+@INPROCEEDINGS{DU08,
+  author = {Du, Xian and Velut, J\'er\^ome and Bolbos, Radu and Beuf, Olivier
+	and Odet, Christophe and Benoit-Cattin, Hugues},
+  title = {3-D knee cartilage segmentation using a smoothing B-Spline active
+	surface},
+  booktitle = {IEEE ICIP},
+  year = {2008},
+  pages = {2924--2927},
+  abstract = {We present an adaptive solution for guinea pig knee cartilage segmentation
+	using a 3-D smoothing B-Spline active surface. An adaptive parametric
+	combination of edge-based forces and balloon force solves the problem
+	of capture range of external forces. The comparison between the results
+	of the experiments using this method and previous 3-D validated snake
+	segmentation shows that the accuracy and robustness are improved.},
+  doi = {10.1109/ICIP.2008.4712407},
+  issn = {1522-4880},
+  keywords = {image segmentation, medical image processing, splines (mathematics),
+	3D knee cartilage segmentation, adaptive parametric combination,
+	balloon force, biomedical image processing, edge-based forces, smoothing
+	B-spline active surface, snake segmentation, MRI, biomedical image
+	processing, image segmentation, spline functions}
+}
+
+@INPROCEEDINGS{GAR10,
+  author = {Garcia, Marie-Paule and Toumoulin, Christine and Haigron, Pascal
+	and Velut, J\'er\^ome and Garreau, Mireille and Boulmier, Dominique},
+  title = {Coronary veins tracking from MSCT using a minimum cost approach},
+  booktitle = {IEEE ISBI},
+  year = {2010},
+  pages = {In press}
+}
+
+@PHDTHESIS{VEL07.2,
+  author = {Velut, J\'er\^ome},
+  title = {Segmentation par mod\`ele d\'eformable surfacique localement r\'egularis\'e
+	par spline lissante},
+  school = {INSA-Lyon},
+  year = {2007},
+  month = {december},
+  abstract = {Image segmentation through deformable models is a method that localizes
+	object boundaries. When difficult segmentation context are proposed
+	because of noise or a lack of information, the use of prior knowledge
+	in the deformation process increases segmentation accuracy. Medical
+	imaging is often concerned by these context. Moreover, medical applications
+	deal with large amounts of data. Then it is mandatory to use a robust
+	and fast processing.
+	
+	This question lead us to a local regularisation of the deformable
+	model. Highly based on the active contour framework, also known as
+	\emph{snake}, we propose a new regularization scheme. This is done
+	by filtering the displacements at each iteration. The filter is based
+	on a smoothing spline kernel whose aim was to approximate a set of
+	points rather than interpolating it.
+	
+	We point out the consistency of the regularization parameter in such
+	a method. It deals with a real, positive λ value that tunes the cut-off
+	frequency of a low-pass filter. As it is possible to link analytically
+	the cut-off frequency and the sampling frequency, one may give a
+	metric meaning to this cut-off frequency. Moreover a different λ
+	value should be set at each point through a variation of the filter's
+	coefficients. It induces a local cut-off frequency and a local regularization.
+	
+	This new regularization method should be applied to surfaces. The
+	main difficulty concerns the connectivity of the surface mesh. It
+	has to be 4-valenced everywhere due to the bidimensionnal fashion
+	of the filter. Segmentation results are given for such meshes. A
+	special process of singular points on spherical mesh is proposed.}
+}
+
+@INPROCEEDINGS{VEL08,
+  author = {Velut, J\'er\^ome and Benoit-Cattin, Hugues and Odet, Christophe},
+  title = {IIR filtering of surface meshes for the regularization of deformable
+	models},
+  booktitle = {IEEE ICIP},
+  year = {2008},
+  pages = {1077--1080},
+  abstract = {A new adaptive IIR filtering of surface meshes by smoothing B-spline
+	is proposed. We define some ad hoc processing of borders and singular
+	points for genus 0 meshes. By adapting the filter cut-off frequency
+	to the local mesh sampling, it enables homogeneous smoothing of non-uniform
+	meshes. We present genus 0 and genus 1 meshes filtering as well as
+	volume segmentations. These segmentations have been obtained using
+	the IIR filtering of deformation forces within a smoothing B-Spline
+	active surface.},
+  doi = {10.1109/ICIP.2008.4711945},
+  issn = {1522-4880},
+  keywords = {IIR filters, adaptive filters, image segmentation, mesh generation,
+	splines (mathematics), ad hoc processing, adaptive IIR filtering,
+	deformable models, deformation forces, filter cut-off frequency,
+	homogeneous smoothing, local mesh sampling, nonuniform meshes, smoothing
+	B-spline, surface meshes, volume segmentations, Adaptive signal processing,
+	geometric modeling, image segmentation, surfaces}
+}
+
+@ARTICLE{VEL07.1,
+  author = {Velut, J\'er\^ome and Benoit-Cattin, Hugues and Odet, Christophe},
+  title = {Locally Regularized Smoothing B-Snake},
+  journal = {EURASIP Journal on Advances in Signal Processing},
+  year = {2007},
+  volume = {2007},
+  pages = {Article ID 76241, 12 pages},
+  note = {doi:10.1155/2007/76241}
+}
+
+@INPROCEEDINGS{VEL06.1,
+  author = {Velut, J\'er\^ome and Benoit-Cattin, Hugues and Odet, Christophe},
+  title = {Locally Regularized Snake Through Smoothing B-Spline Filtering},
+  booktitle = {EUSIPCO},
+  year = {2006},
+  pages = {In proceedings},
+  address = {Firenze},
+  abstract = {In this paper we propose a locally regularized snake based on smoothing-spline
+	filtering. The proposed algorithm associates this regularization
+	process to a force equilibrium scheme leading the snakes deformation.
+	The regularization level is controlled through a unique parameter
+	that can vary along the contour: It provides a locally regularized
+	smoothing B-snake that offers a powerful framework to introduce prior
+	knowledge. We illustrate the snake behavior on MRI images, with global
+	and local regularization.}
+}
+
+@INPROCEEDINGS{VEL06.2,
+  author = {Velut, J\'er\^ome and Benoit-Cattin, Hugues and Odet, Christophe},
+  title = {Segmentation by Smoothing B-Spline Active Surface},
+  booktitle = {IEEE ICIP},
+  year = {2006},
+  pages = {209-212},
+  address = {Atlanta GA},
+  abstract = {In this paper, a new active surface based segmentation algorithm is
+	proposed. The regularization process is done trough smoothing B-spline
+	filtering of the mesh point displacements. Such a regularization
+	is controlled by a unique parameter Lambda that tunes the cut-off
+	frequency of the smoothing B-spline filter. This approach is fast
+	due to the 1D digital filtering used. It is well adapted to quadrangular
+	meshes homeomorphic to a plan (plan, torus, cylinder). Furthermore,
+	by using a specific management of singular points, genus zero surfaces
+	can be used in the segmentation process.}
+}
+
+@INPROCEEDINGS{VEL10,
+  author = {Velut, J\'er\^ome and Toumoulin, Christine and Coatrieux, Jean-Louis},
+  title = {3D coronary structure tracking algorithm with regularization and
+	multiple hypotheses in MRI},
+  booktitle = {IEEE ISBI},
+  year = {2010},
+  pages = {In press}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+
