@@ -1,0 +1,320 @@
+body{
+	background: #EEEEEE;
+	color: #000;
+	font-size: 80%;
+	line-height: 1.6em;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-top: 10px solid #DDD;
+}
+
+.imagette_cadre{
+        width:100px;
+        height:100px;
+        position: relative;
+}
+
+.imagette_cadre .b{
+        background: url(img/fond_imagette_blanc.png) no-repeat;
+        width:100px;
+        height:100px;
+        position: relative;
+}
+
+.imagette_cadre .n{
+        background: url(img/fond_imagette_noir.png) no-repeat;
+        width:100px;
+        height:100px;
+        position: relative;
+}
+
+.image{
+      position: absolute;
+      top : 50%;           /* la moitié de la hauteur du bloc qui la contient  */
+      left : 50%;          /* la moitié de la largeur du bloc qui la contient  */
+      margin-top : -45px;  /* la moitié de la hauteur de l'image  */
+      margin-left : -45px; /* la moitié de la largeur de l'image  */
+      display : block;
+      width : 90px;
+      height : 90px;
+}
+
+#page{
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        text-align:center;
+}
+
+#top-left{
+	height: 172px;
+        width:  94px;
+        background-color: #999999;
+        float: left;
+        margin-right: 1px;
+}
+
+.titre{
+        vertical-align: middle;
+        text-decoration:none;
+        color: #223322;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;
+}
+
+.titre .message{
+        text-align:center;
+        color: #CC3333;
+}
+
+#top-center{
+	height: 172px;
+        width:  607px;
+        float: left;
+        text-align: right;
+        margin-left: 1px;
+        background: url(img/photo_petit.jpg) no-repeat left bottom;
+}
+
+#top-right{
+	height: 172px;
+        width:  95px;
+        float: left;
+}
+
+.menu{
+        vertical-align: middle;
+        text-decoration:none;
+        color: #FFFFFF;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;
+	height: 25px;
+}
+
+.menu a{
+        text-decoration:none;
+        color: #FFFFFF;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;
+	height: 25px;
+}
+
+#menu-accueil{
+        width:  94px;
+        background-color: #999999;
+        float: left;
+        text-align: center;
+        margin-top:2px;
+        margin-right:1px;
+
+}
+
+#menu-recherche{
+        width:  302px;
+        background-color: #EA8700;
+        float: left;
+        text-align: center;
+        margin-top:2px;
+        margin-right:1px;
+        margin-left:1px;
+}
+
+#menu-developpement{
+        width:  302px;
+        background-color: #D3D977;
+        float: left;
+        text-align: center;
+        margin-top:2px;
+        margin-right:1px;
+        margin-left:1px;
+}
+
+#menu-enseignement{
+        width:  94px;
+        background-color: #666677;
+        float: left;
+        text-align: center;
+        margin-top:2px;
+        margin-left:1px;
+}
+
+#contenu-left{
+	height: 600px;
+        width:  94px;
+        float: left;
+        margin-top:2px;
+        margin-right:1px;
+        text-align: right;
+}
+
+.sous-menu{
+        text-decoration:none;
+        color: #777777;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;
+}
+
+.sous-menu .lien{ 
+        text-decoration:none;
+        color: #777777;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;
+}
+
+.lien a{ 
+        text-decoration:none;
+        color: #777777;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;
+}
+
+.lien hr{
+        border: 0px dashed;
+        border-top:0px none;
+        color: #777777;
+        background-color: #777777;
+        height: 1px;
+        width: 90%;
+}
+
+#contenu-center{
+	height: 600px;
+        width:  606px;
+        float: left;
+        margin-top:2px;
+        margin-right:1px;
+        margin-left:1px;
+}
+
+#contenu-right{
+	height: 600px;
+        width:  94px;
+        background-color: #666677;
+        float: left;
+        margin-top:2px;
+        margin-left:1px;
+}
+
+#contenu{
+	height: 550px;
+        width:  580px;
+        margin-top:20px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: justify;
+        }
+
+.intext a{ 
+        text-decoration:none;
+        color: #777777;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;
+        margin-left: 0px;
+}
+
+.intext .externallink{
+       border-bottom-width: 1px;
+        border-bottom-style: dotted;
+ }
+
+.enum-liens a{ 
+        text-decoration:none;
+        color: #777777;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;
+        margin-left: 50px;
+}
+
+
+.contact{
+        text-decoration:none;
+        color: #333333;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;
+        background-color: #F4F4FF;
+        width:400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border: 1px #AAAAAA dashed;
+
+}
+.contact .titre{
+        text-align: center ! important;
+        font-style: normal ! important;
+}
+
+.contact .date{
+        text-align: right;
+        font-style: italic;
+        margin-bottom: 10px;
+}
+
+
+#contenu .titre{ 
+        text-decoration:none;
+        color: #000000;
+        font-family: Geneva, Arial, Helvetica, sans-serif;
+        font-size:small;font-weight: bold;font-style: italic;
+        text-align: left;
+}
+
+#contenu .jury{
+        margin-left:10px;
+}
+
+.article{
+   margin-left:10px;
+   text-decoration: none;
+   font-weight: normal;
+   text-align: justify;
+}
+
+.article .label{
+              font-weight:bold;
+              float:left;
+              margin-right:5px;
+}
+.article .author{
+              font-weight:normal;
+              float:left;
+              margin-right:5px;
+}
+.article .title{
+              font-style: italic;
+              float: left;
+              margin-right:5px;
+}
+.article .journal{
+              font-style: normal;
+              float: left;
+              margin-right:5px;
+}
+.article .year{
+              font-weight: bold;
+              float: left;
+              margin-right:5px;
+}
+
+.article .pages{
+              font-weight: normal;
+              float: left;
+              margin-right:5px;
+}
+
+.article .place{
+              font-weight: normal;
+              float: left;
+              margin-right:5px;
+}
+
+.article:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#footer{
+}
+
