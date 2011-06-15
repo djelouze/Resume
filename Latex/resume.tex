@@ -1,8 +1,7 @@
 \documentclass[10pt,a4paper]{moderncv}
 
 \usepackage{wallpaper}
-
-
+\usepackage{multicol}
 % moderncv themes
 %\moderncvtheme[orange,roman]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 \moderncvtheme[orange]{classic}                % idem
@@ -38,35 +37,33 @@ Applications en imagerie médicale, ingénierie logicielle.}                 % o
 \begin{document}
 %\ThisCenterWallPaper{1}{fond}
 \maketitle
+\small
 %
 \section{Experiences}
 %
-\cventry{2008-aujourd'hui}{Post-doctorat}{INSERM U642-LTSI}{Rennes}{Imagerie médicale}{Segmentation 3D des coronaires
- (artères/veines) en IRM et CT dans le cadre du projet européen euHeart.}  % arguments 3 to 6 are optional
-\cventry{}{Réalisations}{\url{http://github.com/jeromevelut}}{Développement d'outils VTK/ParaView}{}{}  % arguments 3 to 6 are optional
-%\cventry{}{Activités annexes}{}{}{}{Développements de logiciel libre autour de l'informatique graphique.}
+\cventry{2008-aujourd'hui}{Recherches}{INSERM U642-LTSI}{Rennes}{Imagerie médicale}{Segmentation 3D des coronaires
+ (artères/veines) en IRM et CT dans le cadre du projet européen euHeart.}
+\cventry{}{Développements}{}{}{Mise en \oe uvre d'outils de travail collaboratif}{Lancement d'un comité de pilotage pour la plateforme ``ltsitools'', architecture logicielle}  % arguments 3 to 6 are optional
+\cventry{}{Réalisations annexes}{\url{http://github.com/jeromevelut}}{Développements Open Source}{C++}{}  % arguments 3 to 6 are optional
 %
-\cventry{2004-2008}{Doctorat}{CREATIS}{Insa-Lyon}{Traitement d'image 3D}{Développement méthodologique
-sur les modèles déformables 3D et leur régularisation. Application à l'imagerie du
-petit animal. 1 article (revue internationale) et 3 conférences internationales.}  % arguments 3 to 6 are optional
-\cventry{}{Enseignements}{INSA-Lyon/Université Lyon 1}{Monitorat et ATER}{}{Informatique, mathématiques, 
-informatique industrielle et automatismes}  % arguments 3 to 6 are optional
-%\cventry{}{Activités annexes}{}{}{}{Formation industrielle, création de la branche étudiante IEEE Grand-Lyon}
+\cventry{2004-2008}{Recherches}{CREATIS}{Insa-Lyon}{Traitement d'image 3D}{Régularisation des maillages déformables. Application à l'imagerie du
+petit animal.}  % arguments 3 to 6 are optional
+\cventry{}{Développements}{}{}{Interface de test de la méthode publiée}{Interface wxPython, algorithmie Cxx, prototypage Matlab, résolution analytique Maple}  % arguments 3 to 6 are optional
+\cventry{}{Enseignements/formations}{INSA-Lyon}{}{}{Informatique, mathématiques, 
+informatique industrielle et automatismes, VTK}
 %
-\cventry{2003-2004}{Stage 10 mois}{CREATIS}{Insa-Lyon}{Traitement d'image}{Régularisation
+\cventry{2003-2004}{Recherches}{Stage CREATIS (10 mois)}{Insa-Lyon}{Traitement d'image}{Régularisation
 de modèles déformables 2D par filtrage numérique.}  % arguments 3 to 6 are optional
 %
-\cventry{2003}{Stage 6 mois}{CREATIS}{Insa-Lyon}{Ingénierie logicelle}{Développements de modules 
+\cventry{2003}{Développements}{Stage CREATIS (6 mois)}{Insa-Lyon}{Ingénierie logicelle}{Développements de modules 
 de visualisation/interaction en imagerie médicale.}  % arguments 3 to 6 are optional
 %
-\cventry{2002}{Stage 2 mois}{CIRAD}{Montpellier}{Traitement d'image}{Développement d'un plugin
+\cventry{2002}{Développements}{Stage CIRAD (2 mois)}{Montpellier}{Traitement d'image}{Développement d'un plugin
 pour ImageJ. Evaluation de la qualité du bois de tek par traitement d'image.}  % arguments 3 to 6 are optional
 %
 \section{Formation}
 \cventry{2004--2007}{Doctorat}{Traitement d'images et signaux}{CREATIS - INSA-Lyon}{}{}
 \cvline{titre}{\emph{Segmentation par modèle déformable surfacique localement régularisé par spline lissante}}
-\cvline{directeurs}{Pr. Christophe Odet, Pr. Hugues Benoit-Cattin}
-% \cvline{jury}{\small Pr. Pierre-Yves Coulon (prés.), Pr. Jacques-Olivier Lachaud et Dr. Johann Montagnat (rapporteurs), Dr. Olivier Coulon (examinateur).}
 \cventry{2003--2004}{DEA}{Traitement d'images et signaux}{CREATIS - INSA-Lyon}{}{}
 \cventry{2000--2003}{Maitrise}{Génie Mathématique et Informatique}{IUP Avignon}{}{}
 \cventry{1997--1999}{DUT}{Génie Electrique et Informatique Industrielle}{IUT Annecy}{}{}
@@ -82,13 +79,13 @@ pour ImageJ. Evaluation de la qualité du bois de tek par traitement d'image.}  
 \cvlanguage{Allemand}{moyen}{}
 \cvlanguage{Italien}{bases}{}
 %
-%\pagebreak
 \section{Centre d'intérets}
 \cvline{musique}{\small Pratique de: trompette (groupe), guitare, piano}
 \cvline{création}{\small Graphisme (papier, 3D), musique, cuisine}
 \cvline{sport}{\small Escalade, sports de glisse}
 %
-% Publications from a BibTeX file
-%\nocite{*}
 \input{publications}
+%
+%\includegraphics[width=0.5\textwidth]{/home/dje/Images/ulm-metal}
+%
 \end{document}
