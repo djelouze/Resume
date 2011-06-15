@@ -5,7 +5,7 @@ if( $lang=="fr")
 ?>
    <div class="titre">Développements Open Source </div>
    <p>
-   Tous les développements présentés dans cette section sont sous licence libre. Pour l'instant hétérogène, les différences converges petit-à-petit pour tendre vers une licence BSD, autorisant la redistribution commerciale ou non sans les sources; le copyright devant quant à lui accompagner les logiciels intégrant ces bibliothèques. J'étudie la compatibilité BSD/Creative Commons pour les contenus graphiques (TateTen3D).
+   Tous les développements présentés dans cette section sont sous licence libre. Pour l'instant hétérogène, les différences convergent petit-à-petit pour tendre vers une licence BSD, autorisant la redistribution commerciale ou non sans les sources; le copyright devant quant à lui accompagner les logiciels intégrant ces bibliothèques. J'étudie la compatibilité BSD/Creative Commons pour les contenus graphiques (TateTen3D).
 <?php
 }
 else
